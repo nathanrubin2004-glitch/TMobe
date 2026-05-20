@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tyrell Mosley — Boston-based basketball trainer, coach, and founder of NGUNQ. 29 years in the game. Training athletes ages 5–25 across Boston and Greater Boston." />
+  <meta name="theme-color" content="#0a0a0a" />
+
+  <title>Tyrell Mosley | Coach T | NGUNQ — Boston Basketball Trainer</title>
+
+  <!-- Google Fonts: Oswald for athletic headlines, Inter for body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+
+  <!-- ==========================================================
+       NAVIGATION
+       Fixed top nav. Transparent at hero, solidifies on scroll.
+       =========================================================== -->
+  <header class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#hero" class="nav__brand">
+        <span class="nav__brand-mark">NGUNQ</span>
+        <span class="nav__brand-sub">Coach Tyrell</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#training">Training</a>
+        <a href="#coaching">Coaching</a>
+        <a href="#brand">Brand</a>
+        <a href="#contact" class="nav__cta">Book</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================================
+       HERO
+       Full-screen cinematic hero with headshot background.
+       =========================================================== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg" style="background-image:url('Headshot.jpeg');" aria-hidden="true"></div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+
+    <div class="hero__content container">
+      <p class="hero__eyebrow reveal" data-delay="0">Boston · Basketball · NGUNQ</p>
+      <h1 class="hero__headline">
+        <span class="reveal" data-delay="100">NEVER GIVE UP.</span>
+        <span class="reveal" data-delay="250">NEVER QUIT.</span>
+      </h1>
+      <p class="hero__sub reveal" data-delay="450">Trainer. Coach. Boston&rsquo;s Own.</p>
+      <div class="hero__cta reveal" data-delay="600">
+        <a href="#contact" class="btn btn--gold">Work With Tyrell</a>
+        <a href="#about" class="btn btn--ghost">His Story</a>
+      </div>
+    </div>
+
+    <a href="#about" class="hero__scroll" aria-label="Scroll to about section">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ==========================================================
+       ABOUT / BIO
+       Narrative bio + career photo + pull quote.
+       =========================================================== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="section__eyebrow">01 — The Man</p>
+        <h2 class="section__title">Who Is <span class="gold">Coach Tyrell?</span></h2>
+      </header>
+
+      <div class="about__grid">
+        <div class="about__media reveal">
+          <!-- Career-era photo. Swap any image from /Career here. -->
+          <img src="Career/IMG_2534.jpeg" alt="Tyrell Mosley during his playing days" loading="lazy" data-gallery="career" />
+          <div class="about__media-tag">
+            <span class="gold">29</span><small>years in the game</small>
+          </div>
+        </div>
+
+        <div class="about__copy reveal" data-delay="150">
+          <p>
+            Twenty-nine years in the game. Over a decade on the sidelines. Tyrell Mosley grew up
+            with a ball in his hands on Boston blacktops — and he hasn&rsquo;t put it down since.
+          </p>
+          <p>
+            At MassBay Community College, he led the nation in 3-point percentage at
+            <strong class="gold">60%</strong>, finishing his career with over
+            <strong class="gold">1,000 points</strong> scored and a degree in Business with a
+            concentration in Sports Management.
+          </p>
+          <p>
+            From there, he stepped into coaching as an assistant at his alma mater, Massachusetts
+            College of Liberal Arts, before spending seven years building players with the Bay
+            State Jaguars club program. Five years ago, he founded
+            <strong>NGUNQ — Never Give Up, Never Quit</strong> — and now trains athletes from
+            ages 5 through 25 across the city that raised him.
+          </p>
+          <p class="about__close">
+            For Tyrell, this isn&rsquo;t a job. It&rsquo;s a calling.
+          </p>
+        </div>
+      </div>
+
+      <blockquote class="pullquote reveal">
+        <p>&ldquo;His passion and love for the kids is beyond measure.&rdquo;</p>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       TRAINING / NGUNQ
+       What he offers, who he trains, image grid.
+       =========================================================== -->
+  <section class="section training" id="training">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="section__eyebrow">02 — The Work</p>
+        <h2 class="section__title">
+          <span class="gold">NGUNQ</span> Training
+        </h2>
+        <p class="section__expand">Never Give Up. Never Quit.</p>
+      </header>
+
+      <div class="training__intro reveal">
+        <p>
+          From the gym to the asphalt, Coach Tyrell trains hoopers
+          <strong>ages 5 to 25</strong> across Boston and Greater Boston —
+          beginners learning their first crossover, varsity guards sharpening their stroke, and
+          college-level athletes chasing the next level. Every workout is built around the same
+          standard: <span class="gold">work harder than yesterday.</span>
+        </p>
+      </div>
+
+      <!-- Coaching action shots grid -->
+      <div class="training__grid">
+        <figure class="training__shot reveal">
+          <img src="Coaching/IMG_2527.jpeg" alt="Coach Tyrell working with young players" loading="lazy" data-gallery="training" />
+        </figure>
+        <figure class="training__shot reveal" data-delay="100">
+          <img src="Coaching/IMG_2533.jpeg" alt="On-court training session" loading="lazy" data-gallery="training" />
+        </figure>
+        <figure class="training__shot reveal" data-delay="200">
+          <img src="Coaching/IMG_2540.jpeg" alt="Tyrell coaching from the sideline" loading="lazy" data-gallery="training" />
+        </figure>
+      </div>
+
+      <!-- Offerings -->
+      <div class="offerings">
+        <div class="offering reveal">
+          <span class="offering__num">01</span>
+          <h3>Individual Skill Development</h3>
+          <p>1-on-1 sessions tailored to your handle, your shot, your weak hand &mdash; whatever the film says you need next.</p>
+        </div>
+        <div class="offering reveal" data-delay="80">
+          <span class="offering__num">02</span>
+          <h3>Group Workouts</h3>
+          <p>Small-group skill work and competitive drills. Iron sharpens iron.</p>
+        </div>
+        <div class="offering reveal" data-delay="160">
+          <span class="offering__num">03</span>
+          <h3>Youth Development</h3>
+          <p>Fundamentals, footwork, and confidence for the next generation of Boston hoopers (ages 5&ndash;12).</p>
+        </div>
+        <div class="offering reveal" data-delay="240">
+          <span class="offering__num">04</span>
+          <h3>High School &amp; College Prep</h3>
+          <p>Position-specific training for varsity, AAU, and collegiate-level athletes. Tape, reps, accountability.</p>
+        </div>
+        <div class="offering reveal" data-delay="320">
+          <span class="offering__num">05</span>
+          <h3>Shooting &amp; Ball-Handling</h3>
+          <p>Specialized form work from a coach who shot 60% from three at the JUCO level. Mechanics that hold up under pressure.</p>
+        </div>
+        <div class="offering reveal" data-delay="400">
+          <span class="offering__num">06</span>
+          <h3>Mental Toughness</h3>
+          <p>The game between the ears. Discipline, focus, and resilience &mdash; the NGUNQ standard.</p>
+        </div>
+      </div>
+
+      <div class="training__cta reveal">
+        <a href="#contact" class="btn btn--gold">Book a Session</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       COACHING RESUME
+       Three role cards.
+       =========================================================== -->
+  <section class="section coaching" id="coaching">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="section__eyebrow">03 — The Resume</p>
+        <h2 class="section__title">Where He <span class="gold">Coaches</span></h2>
+      </header>
+
+      <div class="roles">
+        <article class="role reveal">
+          <div class="role__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <circle cx="12" cy="12" r="9" />
+              <path d="M3 12h18M12 3v18M5 5l14 14M19 5L5 19" />
+            </svg>
+          </div>
+          <p class="role__tag">AAU</p>
+          <h3 class="role__title">Mass Commanders Ice Basketball</h3>
+          <p class="role__subtitle">MCIB &mdash; AAU Program Coach</p>
+        </article>
+
+        <article class="role reveal" data-delay="120">
+          <div class="role__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M3 10l9-6 9 6-9 6-9-6z" />
+              <path d="M5 12v6c0 1 3 2 7 2s7-1 7-2v-6" />
+            </svg>
+          </div>
+          <p class="role__tag">Head Coach</p>
+          <h3 class="role__title">Solomon Schechter School</h3>
+          <p class="role__subtitle">Newton, MA</p>
+        </article>
+
+        <article class="role reveal" data-delay="240">
+          <div class="role__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M12 2l2.6 6.4L21 9.3l-5 4.6L17.3 21 12 17.6 6.7 21 8 13.9 3 9.3l6.4-.9L12 2z" />
+            </svg>
+          </div>
+          <p class="role__tag">Club &mdash; 7 Years</p>
+          <h3 class="role__title">Bay State Jaguars</h3>
+          <p class="role__subtitle">Formerly</p>
+        </article>
+      </div>
+
+      <div class="coaching__feature">
+        <figure class="coaching__photo reveal">
+          <img src="Career/IMG_2538.jpeg" alt="Coach Tyrell on the court" loading="lazy" data-gallery="career" />
+        </figure>
+        <figure class="coaching__photo reveal" data-delay="120">
+          <img src="Career/IMG_2539.jpeg" alt="Coach Tyrell in action" loading="lazy" data-gallery="career" />
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       NGUNQ BRAND
+       Lifestyle/streetwear masonry grid.
+       =========================================================== -->
+  <section class="section brand" id="brand">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="section__eyebrow">04 — The Brand</p>
+        <h2 class="section__title">The Brand: <span class="gold">NGUNQ</span></h2>
+      </header>
+
+      <p class="brand__lead reveal">
+        NGUNQ isn&rsquo;t just clothing &mdash; it&rsquo;s a mindset born in Boston.
+        Every piece carries the message: <em>no matter what you&rsquo;re going through, you keep going.</em>
+      </p>
+
+      <div class="brand__grid">
+        <div class="brand__tile brand__tile--tall reveal">
+          <img src="NGUNQ/IMG_2530.jpeg" alt="NGUNQ apparel" loading="lazy" data-gallery="brand" />
+        </div>
+        <div class="brand__tile reveal" data-delay="80">
+          <img src="NGUNQ/IMG_2531.jpeg" alt="NGUNQ apparel" loading="lazy" data-gallery="brand" />
+        </div>
+        <div class="brand__tile reveal" data-delay="160">
+          <img src="NGUNQ/IMG_2532.jpeg" alt="NGUNQ apparel" loading="lazy" data-gallery="brand" />
+        </div>
+        <div class="brand__tile brand__tile--wide reveal" data-delay="240">
+          <img src="NGUNQ/IMG_2536.jpeg" alt="NGUNQ apparel" loading="lazy" data-gallery="brand" />
+        </div>
+        <div class="brand__tile reveal" data-delay="320">
+          <img src="NGUNQ/IMG_2541.jpeg" alt="NGUNQ apparel" loading="lazy" data-gallery="brand" />
+        </div>
+        <div class="brand__tile reveal" data-delay="400">
+          <img src="NGUNQ/IMG_2542.jpeg" alt="NGUNQ apparel" loading="lazy" data-gallery="brand" />
+        </div>
+      </div>
+
+      <div class="brand__cta reveal">
+        <a href="https://instagram.com/never_give_up_never_quit" class="btn btn--ghost" target="_blank" rel="noopener">Follow @never_give_up_never_quit</a>
+        <span class="brand__soon">Shop Coming Soon</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       CONTACT
+       Form + direct contact info.
+       =========================================================== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="section__eyebrow">05 — Get In</p>
+        <h2 class="section__title">Ready to <span class="gold">Level Up?</span></h2>
+        <p class="section__lead">
+          Sessions fill quick. Drop your info below or reach out direct &mdash; Coach gets back personally.
+        </p>
+      </header>
+
+      <div class="contact__grid">
+        <!--
+          Contact form.
+          Submits as a text message — opens the user's SMS app prefilled
+          with their info, sent to Coach Tyrell's phone (handled in main.js).
+        -->
+        <form class="contact__form reveal" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required autocomplete="name" />
+          </div>
+
+          <div class="field">
+            <label for="agelevel">Age / Level</label>
+            <input type="text" id="agelevel" name="agelevel" placeholder="e.g. 14 / JV Guard" required />
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="What are you looking to work on?"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--gold btn--block">Text Coach</button>
+          <p class="form__hint">Opens your phone&rsquo;s messages app with your info ready to send.</p>
+          <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+
+        <aside class="contact__direct reveal" data-delay="150">
+          <h3>Reach Direct</h3>
+
+          <a class="contact__line" href="sms:+18574249647">
+            <span class="contact__label">Text</span>
+            <span class="contact__value">857-424-9647</span>
+          </a>
+
+          <a class="contact__line" href="https://instagram.com/coach_t_mobe" target="_blank" rel="noopener">
+            <span class="contact__label">Instagram &mdash; Coach</span>
+            <span class="contact__value">@coach_t_mobe</span>
+          </a>
+
+          <a class="contact__line" href="https://instagram.com/never_give_up_never_quit" target="_blank" rel="noopener">
+            <span class="contact__label">Instagram &mdash; NGUNQ</span>
+            <span class="contact__value">@never_give_up_never_quit</span>
+          </a>
+
+          <a class="contact__line" href="tel:+18574249647">
+            <span class="contact__label">Call</span>
+            <span class="contact__value">857-424-9647</span>
+          </a>
+
+          <div class="contact__motto">
+            <p>NEVER GIVE UP.</p>
+            <p>NEVER QUIT.</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       FOOTER
+       =========================================================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__brand">NGUNQ &mdash; <span>Never Give Up, Never Quit</span></p>
+      <p class="footer__copy">&copy; <span id="year"></span> Tyrell Mosley. Built in Boston.</p>
+    </div>
+  </footer>
+
+  <!-- ==========================================================
+       LIGHTBOX / GALLERY
+       Hidden until JS opens it. One instance reused for all groups.
+       =========================================================== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image gallery" aria-hidden="true">
+    <button class="lightbox__close" id="lbClose" aria-label="Close gallery">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M6 6l12 12M18 6L6 18" />
+      </svg>
+    </button>
+
+    <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Previous image">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="15 6 9 12 15 18" />
+      </svg>
+    </button>
+
+    <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Next image">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="9 6 15 12 9 18" />
+      </svg>
+    </button>
+
+    <figure class="lightbox__stage" id="lbStage">
+      <img class="lightbox__img" id="lbImg" alt="" />
+      <figcaption class="lightbox__caption">
+        <span id="lbCounter" class="lightbox__counter">1 / 1</span>
+      </figcaption>
+    </figure>
+  </div>
+
+  <script src="scripts/main.js" defer></script>
+</body>
+</html>
